@@ -1,0 +1,219 @@
+body.btcfile.file-hovering {
+	background-color: #ddf;
+}
+body.btcfile.file-hovering #content {
+	border-top: 1px solid #eef;
+}
+div.slogan, input.url, input.address {
+	width: 100%;
+	text-align: center;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+	font-size: 50px;
+	padding-top: 10%;
+}
+.api-container div.slogan {
+	padding-top: 5%;
+}
+.url-container {
+	margin-top: 5%;
+}
+input.url, input.address, .display-price {
+	border: none;
+	padding-top: 0;
+	background-color: transparent;
+	cursor: text;
+}
+input.url {
+	outline: none;
+}
+.display-price {
+	color: #999999;
+    font-size: 18px;
+    font-style: italic;
+    outline: none;
+}
+input.address {
+	padding-top: 5px;
+	font-size: 30px;
+}
+div.instructions {
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 18px;
+	color: #999;
+	font-style: italic;
+}
+div.instructions a {
+	color: #999;
+}
+div.uploading {
+	width: 50%;
+	height: 130px;
+	margin: 5% auto 0;
+	background-color: #006899;
+}
+div.upload-progress {
+	background-color: #faa61a;
+	width: 0%;
+	height: 100%;
+}
+div.upload-progress-text {
+	font-size: 100px;
+	position: absolute;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Monaco';
+	text-align: center;
+	width: 50%;
+	opacity: 0.5;
+}
+div.settings {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 5%;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+div.settings-description, div.settings-value {
+	float: left;
+	font-size: 25px;
+	line-height: 40px;
+	margin-bottom: 5px;
+}
+div.settings-description {
+	text-align: right;
+	width: 45%;
+}
+div.settings-value {
+	width: 55%;
+}
+input.settings-input {
+	text-align: right;
+	border: 1px solid #ccc;
+	width: 200px;
+	height: 40px;
+	font-size: 25px;
+	color: #777;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+input.settings-input[name=address] {
+	text-align: center;
+	width: 350px;
+	font-size: 14px;
+}
+#details {
+	width: 100%;
+	margin: 5% auto 0;
+	text-align: center;
+}
+#files {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.file {
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#qr-code {
+	margin: 10px auto 10px;
+	display: block;
+	width: 200px;
+	height: 200px;
+	visibility: hidden;
+}
+#extras {
+	margin-top: 40px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+.address_container {
+	text-align: center;
+}
+div.upload-button-container {
+	width: 400px;
+	height: 70px;
+	margin: 40px auto 0;
+	border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+}
+div.upload-button {
+    border-radius: 5px;
+    font-size: 52px;
+    line-height: 70px;
+    text-align: center;
+    background: linear-gradient(to bottom, #B0D0F0, #70B0E0);
+    background: -webkit-linear-gradient(top, #B0D0F0, #70B0E0);
+    box-shadow: 0 1px 0 #C0D0D0;
+    color: #006892;
+    text-shadow: 0 1px 0 rgba(190, 220, 240, 0.8);
+}
+input.upload-file {
+	opacity: 0;
+	position: absolute;
+	cursor: pointer;
+}
+.api {
+	width: 1000px;
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.api-container {
+	padding-bottom: 200px;
+}
+.api li {
+	margin-bottom: 3px;
+}
+.api a {
+	color: #000;
+}
+select#currency {
+	font-size: 25px;
+	-webkit-appearance: none;
+	padding: 4px;
+	background: #eee;
+	background: -webkit-linear-gradient(top, #fff, #c5c5c5);
+	border: 1px solid #ccc;
+	cursor: pointer;
+	border-radius: 0;
+}
+@media screen and (-moz-images-in-menus:0) {
+	select#currency {
+		padding: 3px;
+	}
+}
+#css-loaded {
+	width: 1px;
+}
+.promo {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+    bottom: 50px;
+    color: #c00;
+    font-size: 20px;
+    font-weight: bold;
+    left: calc(50% - 350px);
+    margin: 0 auto;
+    padding: 4px;
+    position: absolute;
+    text-align: center;
+    width: 700px;
+}
+.header-tab.translated {
+	visibility: visible;
+}
+.stats {
+	margin: 0 auto;
+	text-align: center;
+	width: 700px;
+	position: absolute;
+	bottom: 20px;
+	left: calc(50% - 350px);
+}

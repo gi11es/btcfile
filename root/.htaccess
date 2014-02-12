@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^[a-zA-Z0-9]+$ remote.html [L]
+RewriteRule ^a_p_i$ remote.html [L]
+RewriteRule ^what_is_it$ remote.html [L]
+RewriteRule ^update/[a-zA-Z0-9]+$ remote.html [L]

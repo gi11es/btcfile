@@ -1,0 +1,30 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>btcfile</title>
+	<style media="screen" type="text/css">
+	body.btcfile{width:100%;height:100%;margin:0;font-family:Helvetica;color:#333;background-color:#f4f4f4;}
+	#header{height:50px;background:linear-gradient(to bottom, #333, #000);background:-webkit-linear-gradient(top, #333, #000);overflow:hidden;}
+	.header-tab{background-color:#383838;border-radius:5px;color:#ddd;display:inline-block;float:right;font-size:15px;margin-right:8px;margin-top:12px;padding:5px;text-decoration:none;}
+	.header-tab:hover {background-color:#444;}
+	#logo{float:left;margin-left:10px;margin-top:4px;width:142px;height:38px;display:inline-block;}
+	#content{border-top:1px solid #fff;}
+	.header-tab{visibility:hidden;}
+	</style>
+</head>
+<body class="btcfile">
+	<div id="header">
+		<a href="/"><div id="logo"></div></a>
+		<a class="header-tab" id="tab-api" href="/a_p_i">API</a>	
+		<a class="header-tab" id="tab-feedback" href="javascript:UserVoice.showLightbox()" data-uv-lightbox="classic_widget" data-uv-mode="full" data-uv-primary-color="#cc6d00" data-uv-link-color="#007dbf" data-uv-default-mode="feedback" data-uv-forum-id="204444">feedback &amp; support</a>	
+		<a class="header-tab" id="tab-sell" href="/">sell content</a>
+		<a class="header-tab" id="tab-what" href="/what_is_it">what is btcfile?</a>
+		<a class="header-tab" id="tab-bitcoin" target="_blank" href="https://www.weusecoins.com/">what is bitcoin?</a>
+	</div>
+	<div id="content"></div>
+	<div id="css-loaded"></div>
+</body>
+<script>
+(function(w,d,o,g,r,z,t,j,n,a,m,x,h,c,e){j=d.location.hostname;n=+new Date;h=function(b,f){c=d.createElement(f?'link':'script'),c.type=f==2?'image/x-icon':'text/'+(f?'css':'javascript'),c.async=!0,c.rel=f==1?'stylesheet':'icon',c[f?'href':'src']=b;d.body.appendChild(c)};e=function(){w['GoogleAnalyticsObject']=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)},w[r].l=n;a=d.createElement(o),m=d.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);ga('create','',j);x='//static2.'+j+'/';d.getElementById('logo').style.backgroundImage='url('+x+'logo.svg)';h('//widget.uservoice.com/UejmYOzIVWyb9ZrWM81X1A.js');h(x+'compressed/btcfile'+z+'.js'+t);h(x+'favicon.ico',2);h(x+'compressed/btcfile'+z+'.css'+t,1)};if(w.attachEvent){w.attachEvent('onload',e)}else{w.addEventListener('load',e,!1)}})(window,document,'script','//www.google-analytics.com/analytics.js','ga','-26','');
+</script>
+</html>
